@@ -7,7 +7,7 @@ set cursorline
 set noswapfile
 set nolist
 
-set showmode
+set noshowmode
 set showcmd
 
 set ruler
@@ -106,6 +106,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-ruby/vim-ruby'
 
 Plug 'ap/vim-css-color'
+
+Plug 'vim-airline/vim-airline'
 
 " Initialize plugin system
 call plug#end()
