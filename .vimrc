@@ -65,10 +65,6 @@ filetype plugin on
 " clear search hightlight
 nnoremap <Leader><space> :noh<cr>
 
-" copy and past
-vnoremap <C-c> y
-nnoremap <C-v> p
-
 vnoremap <Tab> >
 vnoremap <S-Tab> <
 
@@ -111,6 +107,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
+Plug 'tomtom/tcomment_vim'
 
 " Initialize plugin system
 call plug#end()
