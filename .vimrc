@@ -90,6 +90,9 @@ else
   autocmd BufRead,BufNewFile *.js noremap <F5> :echo "you need to install node"<Enter>
 endif
 
+noremap <silent> <C-h> :!open %<CR>
+
+
 " -------------------
 " plugins
 " -------------------
