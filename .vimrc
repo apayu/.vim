@@ -109,5 +109,7 @@ Plug 'ap/vim-css-color'
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'preservim/nerdtree'
+
 " Initialize plugin system
 call plug#end()
