@@ -104,16 +104,13 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-ruby/vim-ruby'
-
 Plug 'ap/vim-css-color'
-
 Plug 'vim-airline/vim-airline'
-
 Plug 'preservim/nerdtree'
-
 Plug 'kien/ctrlp.vim'
-
 Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 
 " Initialize plugin system
 call plug#end()
