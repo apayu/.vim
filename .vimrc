@@ -113,6 +113,7 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
+Plug 'majutsushi/tagbar'
 
 " Initialize plugin system
 call plug#end()
