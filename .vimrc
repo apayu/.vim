@@ -100,6 +100,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
 Plug 'ap/vim-css-color'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
