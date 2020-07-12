@@ -114,6 +114,7 @@ Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'majutsushi/tagbar'
+Plug 'mileszs/ack.vim'
 
 " Initialize plugin system
 call plug#end()
