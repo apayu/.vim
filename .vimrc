@@ -111,5 +111,7 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'preservim/nerdtree'
 
+Plug 'kien/ctrlp.vim'
+
 " Initialize plugin system
 call plug#end()
