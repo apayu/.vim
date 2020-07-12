@@ -108,6 +108,7 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tomtom/tcomment_vim'
+Plug 'thoughtbot/vim-rspec'
 
 " Initialize plugin system
 call plug#end()
