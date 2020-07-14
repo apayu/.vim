@@ -65,8 +65,8 @@ filetype plugin on
 " clear search hightlight
 nnoremap <Leader><space> :noh<cr>
 
-vnoremap <Tab> >
-vnoremap <S-Tab> <
+xnoremap <Tab> >
+xnoremap <S-Tab> <
 
 nnoremap <Enter> o
 
