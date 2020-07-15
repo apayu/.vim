@@ -1,1 +1,1 @@
-noremap <C-m> :TagbarToggle<Enter>
+map <Leader>a :TagbarToggle<CR>
