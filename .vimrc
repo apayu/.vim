@@ -65,6 +65,10 @@ filetype plugin on
 " clear search hightlight
 nnoremap <Leader><space> :noh<cr>
 
+" switch tab
+nnoremap gl  :tabnext<CR>
+nnoremap gh  :tabprev<CR>
+
 xnoremap <Tab> >
 xnoremap <S-Tab> <
 
