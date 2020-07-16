@@ -1,1 +1,1 @@
-map <Leader>a :TagbarToggle<CR>
+map <Leader>b :TagbarToggle<CR>
