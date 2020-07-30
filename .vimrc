@@ -62,6 +62,9 @@ filetype plugin on
 " key map
 " -------------------
 
+" paste multiple times
+xnoremap p pgvy
+
 " clear search hightlight
 nnoremap <Leader><space> :noh<cr>
 
