@@ -128,6 +128,7 @@ Plug 'majutsushi/tagbar'
 Plug 'mileszs/ack.vim'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'hashivim/vim-terraform'
 
 " Initialize plugin system
 call plug#end()
