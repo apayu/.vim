@@ -1,3 +1,15 @@
+" 20200425 Copy current filepath
+" https://stackoverflow.com/posts/17096082/revisions
+" relative path (src/foo.txt)
+nnoremap <leader>cfr :let @+=expand("%")<CR>
+" absolute path (/something/src/foo.txt)
+nnoremap <leader>cfa :let @+=expand("%:p")<CR>
+" filename (foo.txt)
+nnoremap <leader>cff :let @+=expand("%:t")<CR>
+" directory name (/something/src)
+nnoremap <leader>cfd :let @+=expand("%:p:h")<CR>
+
+
 " -------------------
 " basic function
 " -------------------
