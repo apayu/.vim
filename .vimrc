@@ -142,6 +142,8 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'hashivim/vim-terraform'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'wakatime/vim-wakatime'
+Plug 'tpope/vim-fireplace'
 
 " Initialize plugin system
 call plug#end()
