@@ -14,6 +14,9 @@ nnoremap <leader>cfd :let @+=expand("%:p:h")<CR>
 " open tig with current file
 nnoremap <Leader>T :TigOpenCurrentFile<CR>
 
+" open tig with Project root path
+nnoremap <Leader>t :TigOpenProjectRootDir<CR>
+
 " open tig blame with current file
 nnoremap <Leader>bm :TigBlame<CR>
 
