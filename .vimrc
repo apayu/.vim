@@ -9,13 +9,15 @@ nnoremap <leader>cff :let @+=expand("%:t")<CR>
 " directory name (/something/src)
 nnoremap <leader>cfd :let @+=expand("%:p:h")<CR>
 
+" vim-rails
+" |CTRL-W_gf| (open in new tab)
 
 " https://github.com/iberianpig/tig-explorer.vim
 " open tig with current file
 nnoremap <Leader>T :TigOpenCurrentFile<CR>
 
 " open tig with Project root path
-nnoremap <Leader>t :TigOpenProjectRootDir<CR>
+nnoremap <Leader>tt :TigOpenProjectRootDir<CR>
 
 " open tig blame with current file
 nnoremap <Leader>bm :TigBlame<CR>
