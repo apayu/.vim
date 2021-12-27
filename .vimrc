@@ -113,9 +113,9 @@ autocmd WinLeave * setlocal nocursorline
 autocmd BufWritePre * :%s/\s\+$//e
 
 if executable("ruby")
-  autocmd BufRead,BufNewFile *.rb noremap <F5> :% w !ruby -w<Enter>
+  autocmd BufRead,BufNewFile *.rb noremap <Leader>r :% w !ruby -w<Enter>
 else
-  autocmd BufRead,BufNewFile *.rb noremap <F5> :echo "you need to install ruby"<Enter>
+  autocmd BufRead,BufNewFile *.rb noremap <Leader>r :echo "you need to install ruby"<Enter>
 endif
 
 if executable("node")
