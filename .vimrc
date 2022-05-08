@@ -160,6 +160,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'wakatime/vim-wakatime'
 Plug 'tpope/vim-fireplace'
 Plug 'iberianpig/tig-explorer.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Initialize plugin system
 call plug#end()
