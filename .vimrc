@@ -163,7 +163,6 @@ Plug 'iberianpig/tig-explorer.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'elixir-editors/vim-elixir'
-Plug 'elixir-editors/vim-elixir'
 
 " Initialize plugin system
 call plug#end()
