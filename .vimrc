@@ -9,6 +9,10 @@ nnoremap <leader>cff :let @+=expand("%:t")<CR>
 " directory name (/something/src)
 nnoremap <leader>cfd :let @+=expand("%:p:h")<CR>
 
+" mix format
+autocmd FileType elixir,eelixir nnoremap ffe :!mix format %<Enter>
+autocmd FileType elixir,eelixir nnoremap fae :!mix format<Enter>
+
 " vim-rails
 " |CTRL-W_gf| (open in new tab)
 
